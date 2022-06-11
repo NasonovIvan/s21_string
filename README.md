@@ -26,9 +26,13 @@ For testing the functions:
 make test
 ```
 
-If you want to check the code using *cppcheck*, *leaks* or *valgrind*, use the command:
+If you want to check the code using *cpplint* or *valgrind*, use the commands:
 ```sh
-make check
+make cpplint
+```
+or
+```sh
+make valgrind
 ```
 
 >The commands assume that you have a gcc compiler and some utilities installed!

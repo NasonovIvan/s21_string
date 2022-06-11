@@ -7,6 +7,34 @@ In this project I developed my own implementation of the string.h library in C p
 The C programming language has a set of functions implementing operations on strings (character strings and byte strings) in its standard library. Various operations, such as copying, concatenation, tokenization and searching are supported. For character strings, the standard library uses the convention that strings are null-terminated: a string of n characters is represented as an array of n + 1 elements, the last of which is a "NULL" character. 
 The only support for strings in the programming language proper is that the compiler translates quoted string constants into null-terminated strings.
 
+# Start program
+
+After cloning this repo, enter the following command in the s21_string directory:
+
+To create a library, test its functions and get a [gcovr](https://gcovr.com/en/stable/) html-report on the coverage of functions with tests:
+```sh
+make
+```
+
+For building the library *s21_string.a*:
+```sh
+make s21_math.a
+```
+
+For testing the functions:
+```sh
+make test
+```
+
+If you want to check the code using *cppcheck*, *leaks* or *valgrind*, use the command:
+```sh
+make check
+```
+
+>The commands assume that you have a gcc compiler and some utilities installed!
+
+# About project
+
 ### string.h Types
 
 | No. | Variable | Description |

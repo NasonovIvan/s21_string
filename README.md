@@ -91,8 +91,6 @@ where:
 | 1 | - | Left-justify within the given field width; Right justification is the default (see width sub-specifier). |
 | 2 | + | Forces to precede the result with a plus or minus sign (+ or -) even for positive numbers. By default, only negative numbers are preceded with a -ve sign. |
 | 3 | (space) | If no sign is going to be written, a blank space is inserted before the value. |
-| 4 | # | Used with o, x or X specifiers the value is preceded with 0, 0x or 0X respectively for values different than zero. Used with e, E and f, it forces the written output to contain a decimal point even if no digits would follow. By default, if no digits follow, no decimal point is written. Used with g or G the result is the same as with e or E but trailing zeros are not removed. |
-| 5 | 0 | Left-pads the number with zeroes (0) instead of spaces, where padding is specified (see width sub-specifier). |
 
 ### sprintf Width Description
 
